@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Heroes Project</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<section class="heroes-section">
+		<form class="heroes__form" id="heroesForm">
+			<label>
+				Name: <input type="text" placeholder="Iron Man" value="Iron Man" data-name="heroName">
+			</label>
+			<label>
+				Comics: <select data-name="heroComics">
+				</select>
+			</label>
+			<label>
+				Favourite: 
+				<div class="heroFavouriteInput">
+					<input type="checkbox" data-name="heroFavourite">
+				</div>
+			</label>
+	
+			<button>Add Hero</button>
+		</form>
+	
+		<table class="heroes__table" id="heroesTable">
+			<thead>
+				<tr>
+					<th>Name Surname</th>
+					<th>Comics</th>
+					<th>Favourite</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
