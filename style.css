@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-image:  linear-gradient(#1f6de9, #3c48d4);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+
+.heroes-section {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.heroes__form{
+	background: #f8f8f8;
+    display: inline-flex;
+    padding: 30px 30px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+	border: 2px solid #1b1b1b;
+}
+
+.heroes__form label{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.heroes__form input, .heroes__form select{
+	margin-left: 5px;
+	height: 30px;
+}
+
+.heroes__table{
+	border-collapse: collapse;
+	background-color: #f8f8f8;
+	
+}
+.heroes__table th {
+	padding: 25px 30px;
+}
+
+.heroes__table td{
+	padding: 12px 30px;
+}
+
+th, td {
+	border: 2px solid #1b1b1b;
+}
+button{
+	background: #e67777;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 40px;
+	color: white;
+	cursor: pointer;
+}
+
+label.heroFavouriteInput{
+	display: flex;
+	align-items: center;
+}
